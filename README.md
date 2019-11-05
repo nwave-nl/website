@@ -1,2 +1,1 @@
-# website
-nwave website - http://nwave.nl/
+# website coming soon
