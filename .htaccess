@@ -1,0 +1,22 @@
+
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+
+  RewriteCond %{REQUEST_FILENAME} -f
+  RewriteRule index.php - [QSA,L,C]
+  RewriteRule .* - [QSA,L]
+
+  RewriteCond %{REQUEST_URI} ^.*\.php$
+  RewriteRule ^.*\.php$ - [R=404,L]
+
+  RewriteCond %{REQUEST_URI} ^/$
+  RewriteRule ^$ index.php [QSA,L]
+
+  RewriteCond %{REQUEST_URI} ^(.*)\..*$
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^(.*)\..*$ - [R=404,L]
+
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^(.*)$ index.php [QSA,L]
+</IfModule>
+
