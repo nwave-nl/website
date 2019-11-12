@@ -1,0 +1,188 @@
+/* ---HEAD--- */
+.head {
+  height: 100vh;
+  background: url('../images/head_bg.jpg'); /* miss andere foto IDK */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.head img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* --------- */
+
+/* ---Wie Zijn Wij--- */
+.page__wzw {
+  height: 1000px;
+}
+.page__wzw--grid {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  display: grid;
+  grid-gap: 4em;
+}
+.page__wzw--grid-text {
+  grid-column: 1/5;
+}
+.page__wzw--grid-text-content{
+  width: 900px;
+  position: relative;
+  top: 55%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+}
+.page__wzw--grid-text-content h1 {
+  font-family: europa, sans-serif;
+  font-weight: 700;
+  line-height: 10px;
+  font-size: 2.5em;
+}
+.page__wzw--grid-text-content p {
+  font-family: europa, sans-serif;
+  font-weight: 400;
+  font-size: 1.6em;
+}
+.page__wzw--grid-text-content button {
+  border: none;
+  background-color: #777;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: .5s;
+  font-family: europa, sans-serif;
+}
+.page__wzw--grid-text-content button:hover {
+  cursor: pointer;
+  background-color: #666;
+  box-shadow:  0px 0px 10px rgba(0,0,0,.5);
+  transition: .5s;
+}
+.page__wzw--grid-img {
+  grid-column: 5/8;
+  vertical-align: middle;
+}
+.page__wzw--grid-img img {
+  width: 700px;
+  padding-top: 200px;
+  padding-right: 100px;
+}
+/* --------- */
+
+/* ---Website van uw dromen--- */
+.page__wd {
+  height: 1050px;
+  background: url('../images/wd_bg.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.page__wd--grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  height: 1000px;
+}
+.page__wd--grid-img {
+  grid-column: 1/4;
+}
+.page__wd--grid-img {
+  position: relative;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.page__wd--grid-text {
+  grid-column: 4/8;
+  color: #fff;
+}
+.page__wd--grid-text-content button {
+  border: none;
+  background-color: #777;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: .5s;
+  font-family: europa, sans-serif;
+}
+.page__wd--grid-text-content button:hover {
+  cursor: pointer;
+  background-color: #666;
+  box-shadow:  0px 0px 10px rgba(0,0,0,.5);
+  transition: .5s;
+}
+.page__wd--grid-text-content{
+  width: 900px;
+  position: relative;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.page__wd--grid-text-content h1 {
+  font-family: europa, sans-serif;
+  font-weight: 700;
+  line-height: 10px;
+  font-size: 2.5em;
+}
+.page__wd--grid-text-content p {
+  font-family: europa, sans-serif;
+  font-weight: 400;
+  font-size: 1.6em;
+}
+/* --------- */
+
+/* ---Website van uw dromen--- */
+.page__ow {
+  height: 1000px;
+}
+.page__ow--grid {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  display: grid;
+  grid-gap: 4em;
+}
+.page__ow--grid-text {
+  grid-column: 1/5;
+}
+.page__ow--grid-text-content{
+  width: 900px;
+  position: relative;
+  top: 55%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+}
+.page__ow--grid-text-content h1 {
+  font-family: europa, sans-serif;
+  font-weight: 700;
+  line-height: 10px;
+  font-size: 2.5em;
+}
+.page__ow--grid-text-content p {
+  font-family: europa, sans-serif;
+  font-weight: 400;
+  font-size: 1.6em;
+}
+.page__ow--grid-text-content button {
+  border: none;
+  background-color: #777;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: .5s;
+  font-family: europa, sans-serif;
+}
+.page__ow--grid-text-content button:hover {
+  cursor: pointer;
+  background-color: #666;
+  box-shadow:  0px 0px 10px rgba(0,0,0,.5);
+  transition: .5s;
+}
+.page__ow--grid-img {
+  grid-column: 5/8;
+  vertical-align: middle;
+}
+.page__ow--grid-img img {
+  width: 700px;
+  padding-top: 200px;
+  padding-right: 100px;
+}

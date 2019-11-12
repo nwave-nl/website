@@ -1,0 +1,67 @@
+/* ---Fonts--- */
+@import url("https://use.typekit.net/hrt6ppr.css");
+/* --------- */
+
+/* ---Main--- */
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #f2f2f2;
+  overflow-x: hidden;
+}
+/* --------- */
+
+/* ---NAV--- */
+
+.nav {
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.nav.bg {
+  background: rgba(0,0,0,.8);
+}
+.nav_left {
+  float: left;
+  margin-left: 10em;
+}
+.nav_left h2 {
+  font-family: europa, sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  color: #fff;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  line-height: 60px;
+}
+.nav_right {
+  float: right;
+  font-family: europa, sans-serif;
+  font-weight: 400;
+}
+.nav_right ul {
+  list-style: none;
+  display: flex;
+  font-size: 1.2em;
+  margin-right: 10em;
+}
+.nav_right ul li {
+  margin-left: 2em;
+}
+.nav_right ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+#active {
+  border-bottom: 1px solid #ff824c;
+}
+/* --------- */
