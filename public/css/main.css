@@ -25,9 +25,11 @@ body {
   top: 0;
   left: 0;
   z-index: 1;
+  transition: .5s
 }
 .nav.bg {
   background: rgba(0,0,0,.8);
+  transition: .5s
 }
 .nav_left {
   float: left;

@@ -9,7 +9,7 @@
       <li><a id="active" href="#">Home</a></li>
       <li><a href="#">Over ons</a></li>
       <li><a href="#">Portfolio</a></li>
-      <li><a href="#">Website</a></li>
+      <li><a href="#">Offerte</a></li>
       <li><a href="#">Contact</a></li>
     </ul>
   </div>
@@ -17,7 +17,7 @@
 
 <!-- Header -->
 <div class="head">
-  <img src="public/images/head_logo.png" alt="">
+  <img src="public/images/head_logo.png" alt="img">
 </div>
 
 <!-- Wie zijn wij pagina -->
@@ -28,13 +28,13 @@
         <h1>Wie zijn wij?</h1>
         <p>nwave is een bedrijf opgericht door 3 Mediacollege studenten uit het
           2e jaar, Wij willen veder groeien in een markt van grote bedrijven door
-          te doen waar wij het best in zijn. Wij maken voor jou mooie responsive
-          website’s voor bijvoorbeeld jou start-up / bedrijf</p>
+          te doen waar wij het best in zijn. Wij maken mooie responsive
+          website’s voor bijvoorbeeld uw start-up / bedrijf</p>
           <div class="more__button"><button>Meer weten</button></div>
       </div>
     </div>
     <div class="page__wzw--grid-img">
-      <img src="public/images/wzw_img.jpg" alt="">
+      <img src="public/images/wzw_img.jpg" alt="img">
     </div>
   </div>
 </div>
@@ -43,7 +43,7 @@
 <div class="page__wd">
   <div class="page__wd--grid">
     <div class="page__wd--grid-img">
-      <img src="public/images/wd_img.jpg" alt="">
+      <img src="public/images/wd_img.jpg" alt="img">
     </div>
     <div class="page__wd--grid-text">
       <div class="page__wd--grid-text-content">
@@ -72,7 +72,49 @@
       </div>
     </div>
     <div class="page__ow--grid-img">
-      <img src="public/images/ow_img.jpg" alt="">
+      <img src="public/images/ow_img.jpg" alt="img">
     </div>
   </div>
+</div>
+
+<!-- Voorbeelden pagina -->
+<div class="page__e">
+  <h1>Wat kunt u verwachten?</h1>
+  <p class="sub_text">Dit krijgt u standaard bij uw website.</p>
+  <div class="page__e--center">
+    <div class="page__e--grid">
+      <div class="page__e--grid-content">
+        <h2>Website</h2>
+        <p>Wij maken al onze website's duidelijk, mooi, strak en mobiel vriendelijk,
+          wij doen er alles aan onze klanten tevreden te houden.
+          </p>
+      </div>
+      <div class="page__e--grid-content">
+        <h2>SEO</h2>
+        <p>Wij maken website's zo snel mogelijk, denk hierbij aan kleinere bestanden qua foto's,
+          of goed geschreven scripts. Ook optimalizeren wij de website's zodat ze een goede google
+          ranking krijgen.
+          </p>
+      </div>
+      <div class="page__e--grid-content">
+        <h2>Stijl</h2>
+        <p>Professioneel overkomen? Dit moet goed komen, wij weten precies wat wij doen
+          en zorgen dat uw website het bedrijf zo professioneel mogelijk over doet komen.
+          </p>
+      </div>
+      <div class="page__e--grid-content">
+        <h2>Service</h2>
+        <p>Klopt er iets niet? of is er een klein dingetje wat anders moet?
+          Hier helpen wij graag. Gaat het over grotere vernieuwingen? neem dan
+          contact op en dan helpen wij je graag veder.
+          </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Offerte aanvragen pagina -->
+<div class="page__oa">
+  <h1>Offerte aanvragen?</h1>
+  <button onclick="location='/pagina'">Offerte aanvragen</button>
 </div>

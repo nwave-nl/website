@@ -28,7 +28,7 @@
   grid-column: 1/5;
 }
 .page__wzw--grid-text-content{
-  width: 900px;
+  width: 80%;
   position: relative;
   top: 55%;
   left: 55%;
@@ -37,7 +37,6 @@
 .page__wzw--grid-text-content h1 {
   font-family: europa, sans-serif;
   font-weight: 700;
-  line-height: 10px;
   font-size: 2.5em;
 }
 .page__wzw--grid-text-content p {
@@ -65,7 +64,7 @@
   vertical-align: middle;
 }
 .page__wzw--grid-img img {
-  width: 700px;
+  width: 80%;
   padding-top: 200px;
   padding-right: 100px;
 }
@@ -87,11 +86,12 @@
 .page__wd--grid-img {
   grid-column: 1/4;
 }
-.page__wd--grid-img {
+.page__wd--grid-img img {
   position: relative;
-  top: 65%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 80%;
 }
 .page__wd--grid-text {
   grid-column: 4/8;
@@ -113,7 +113,7 @@
   transition: .5s;
 }
 .page__wd--grid-text-content{
-  width: 900px;
+  width: 80%;
   position: relative;
   top: 55%;
   left: 50%;
@@ -122,7 +122,6 @@
 .page__wd--grid-text-content h1 {
   font-family: europa, sans-serif;
   font-weight: 700;
-  line-height: 10px;
   font-size: 2.5em;
 }
 .page__wd--grid-text-content p {
@@ -145,7 +144,7 @@
   grid-column: 1/5;
 }
 .page__ow--grid-text-content{
-  width: 900px;
+  width: 80%;
   position: relative;
   top: 55%;
   left: 55%;
@@ -154,7 +153,6 @@
 .page__ow--grid-text-content h1 {
   font-family: europa, sans-serif;
   font-weight: 700;
-  line-height: 10px;
   font-size: 2.5em;
 }
 .page__ow--grid-text-content p {
@@ -182,7 +180,105 @@
   vertical-align: middle;
 }
 .page__ow--grid-img img {
-  width: 700px;
+  width: 80%;
   padding-top: 200px;
   padding-right: 100px;
 }
+/* --------- */
+
+/* ---Voorbeelden--- */
+.page__e {
+  height: 500px;
+  background: url('../images/e_bg.jpg');
+  background-position: center center;
+  background-size: cover;
+  color: #fff;
+}
+.page__e h1 {
+  font-family: europa, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 3.5em;
+  position: relative;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.page__e .sub_text {
+  text-align: center;
+  font-family: europa, sans-serif;
+  position: relative;
+  top: 7%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: overline;
+  font-size: 1.2em;
+}
+.page__e--center {
+  width: 70%;
+  height: 200px;
+  position: relative;
+  top: 28%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.page__e--grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100%;
+  margin: auto;
+  vertical-align: middle;
+  grid-gap: 2em;
+  text-align: center;
+  font-family: europa, sans-serif;
+}
+.page__e--grid-content h2 {
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid #fff;
+  max-width: 100px;
+  text-align: center;
+  margin: auto;
+}
+.page__e--grid-content p{
+  text-align: center;
+  padding: 0em 1em 0em 1em;
+  color: #fff;
+}
+/* --------- */
+
+/* ---Offerte pagina--- */
+.page__oa {
+  height: 400px;
+  background: url('../images/oa_bg.png');
+  background-position: center bottom;
+  background-size: cover;
+}
+.page__oa h1 {
+  text-align: center;
+  font-family: europa, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3.5em;
+  padding-top: 1.5em;
+}
+.page__oa button {
+  border: none;
+  background-color: #ff824c;
+  padding: 20px 30px;
+  color: #fff;
+  font-family: europa, sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+  display: block;
+  margin: auto;
+  border-radius: 4px;
+  transition: .5s;
+}
+.page__oa button:hover {
+  background-color: #ff601b;
+  cursor: pointer;
+  transition: .5s;
+}
+/* --------- */
