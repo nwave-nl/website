@@ -1,23 +1,7 @@
 <?php $this->layout('standard_layout'); ?>
-<!-- NAV -->
-<div class="nav">
-  <div class="nav_left">
-    <h2>nwave</h2>
-  </div>
-  <div class="nav_right">
-    <ul>
-      <li><a id="active" href="#">Home</a></li>
-      <li><a href="#">Over ons</a></li>
-      <li><a href="#">Portfolio</a></li>
-      <li><a href="#">Offerte</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </div>
-</div>
-
 <!-- Header -->
 <div class="head">
-  <img src="public/images/head_logo.png" alt="img">
+  <img src="<?php echo image("head_logo.png"); ?>" alt="img">
 </div>
 
 <!-- Wie zijn wij pagina -->
@@ -34,7 +18,7 @@
       </div>
     </div>
     <div class="page__wzw--grid-img">
-      <img src="public/images/wzw_img.jpg" alt="img">
+      <img src="<?php echo image("wzw_img.jpg"); ?>" alt="img">
     </div>
   </div>
 </div>
@@ -43,7 +27,7 @@
 <div class="page__wd">
   <div class="page__wd--grid">
     <div class="page__wd--grid-img">
-      <img src="public/images/wd_img.jpg" alt="img">
+      <img src="<?php echo image("wd_img.jpg"); ?>" alt="img">
     </div>
     <div class="page__wd--grid-text">
       <div class="page__wd--grid-text-content">
@@ -72,25 +56,30 @@
       </div>
     </div>
     <div class="page__ow--grid-img">
-      <img src="public/images/ow_img.jpg" alt="img">
+      <img src="<?php echo image("ow_img.jpg"); ?>" alt="img">
     </div>
   </div>
 </div>
 
 <!-- Voorbeelden pagina -->
 <div class="page__e">
-  <h1>Wat kunt u verwachten?</h1>
-  <p class="sub_text">Dit krijgt u standaard bij uw website.</p>
+  <div class="page__e__title">
+      <h1>Wat kunt u verwachten?</h1>
+      <span class="accent__white"></span>
+      <p class="sub_text">Dit krijgt u standaard bij uw website.</p>
+  </div>
   <div class="page__e--center">
     <div class="page__e--grid">
       <div class="page__e--grid-content">
         <h2>Website</h2>
+          <span class="accent__white--small"></span>
         <p>Wij maken al onze website's duidelijk, mooi, strak en mobiel vriendelijk,
           wij doen er alles aan onze klanten tevreden te houden.
           </p>
       </div>
       <div class="page__e--grid-content">
         <h2>SEO</h2>
+          <span class="accent__white--small"></span>
         <p>Wij maken website's zo snel mogelijk, denk hierbij aan kleinere bestanden qua foto's,
           of goed geschreven scripts. Ook optimalizeren wij de website's zodat ze een goede google
           ranking krijgen.
@@ -98,11 +87,13 @@
       </div>
       <div class="page__e--grid-content">
         <h2>Stijl</h2>
+          <span class="accent__white--small"></span>
         <p>Professioneel overkomen? Dit moet goed komen, wij weten precies wat wij doen
           en zorgen dat uw website het bedrijf zo professioneel mogelijk over doet komen.
           </p>
       </div>
       <div class="page__e--grid-content">
+          <span class="accent__white--small"></span>
         <h2>Service</h2>
         <p>Klopt er iets niet? of is er een klein dingetje wat anders moet?
           Hier helpen wij graag. Gaat het over grotere vernieuwingen? neem dan
