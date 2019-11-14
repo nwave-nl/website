@@ -29,7 +29,15 @@
 
       ?>
 <div class="footer">
+    <div class="footer__section--1">
+        <img src="<?php echo image("head_logo.png"); ?>" alt="img">
+    </div>
+    <div class="footer__section--2">
 
+    </div>
+    <div class="footer__section--3">
+        <h4>© 2019-<?php echo date("Y"); ?> nwave.</h4>
+    </div>
 </div>
 </body>
 </html>

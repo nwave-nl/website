@@ -11,7 +11,7 @@
 body {
   background-color: #f2f2f2;
   overflow-x: hidden;
-  padding: 0 0 200px;
+  padding: 0 0 280px;
   position: relative;
 }
 /* --------- */
@@ -70,10 +70,40 @@ body {
 /* --------- */
 /* FOOTER */
 .footer {
-  height: 200px;
+  height: 240px;
   width: 100%;
   position: absolute;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  color: #f2f2f2;
+  font-family: europa, sans-serif;
+  padding: 20px;
+}
+.footer__section--1 {
+  height: 50px;
+  position: relative;
+}
+.footer__section--1 img {
+  height: 50px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.footer__section--2 {
+  height: 125px;
+}
+.footer__section--3 {
+  height: 25px;
+}
+
+.footer__section--3 h4 {
+  text-align: center;
+  line-height: 25px;
+  font-weight: 400;
 }
 /* --------- */
