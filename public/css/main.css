@@ -67,3 +67,11 @@ body {
   border-bottom: 1px solid #ff824c;
 }
 /* --------- */
+/* FOOTER */
+.footer {
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+/* --------- */
