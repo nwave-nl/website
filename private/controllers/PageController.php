@@ -7,6 +7,24 @@ class PageController {
 
 	}
 
+	function portfolio(){
+        $template_engine = get_template_engine();
+        echo $template_engine->render('portfolio');
+
+	}
+
+	function offerte(){
+        $template_engine = get_template_engine();
+        echo $template_engine->render('offerte');
+
+	}
+
+	function contact(){
+        $template_engine = get_template_engine();
+        echo $template_engine->render('contact');
+
+	}
+
 	function notfound(){
         $template_engine = get_template_engine();
         echo $template_engine->render('notfound');
