@@ -6,6 +6,7 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: europa, sans-serif;
 }
 
 body {
@@ -13,6 +14,7 @@ body {
   overflow-x: hidden;
   padding: 0 0 350px;
   position: relative;
+  min-height: calc(100vh - 350px);
 }
 /* --------- */
 
