@@ -1,7 +1,47 @@
-<?php $this->layout('standard_layout'); ?>
+<?php $this->layout('standard_layout');
+
+$pdo = dbConnect();
+
+session_start();
+
+if (isset($_POST['submit'])) {
+    $fullName = $_POST['voornaam'] . " " . $_POST['achternaam'];
+    $name =  !empty($fullName) ? trim($fullName) : null;
+    $email =  !empty($_POST['email']) ? trim($_POST['email']) : null;
+    $message =  !empty($_POST['bericht']) ? trim($_POST['bericht']) : null;
+
+    $stmt = $pdo->prepare("SELECT COUNT(email) FROM contact WHERE email=?;");
+    $stmt->execute($email);
+    $number_of_rows = $stmt->fetchColumn();
+
+    if ($number_of_rows == 2) {
+        $_SESSION['error'] = "Te vaak het formelier verstuurd!";
+        header('Location: ' . url("/contact"));
+    } else {
+        $data = [
+            'personName' => $name,
+            'email' => $email,
+            'message' => $message,
+        ];
+        $sql = "INSERT INTO contact (personName, email, message) VALUES (:personName, :email, :message)";
+        $stmt = $pdo->prepare($sql);
+        $stmt->execute($data);
+        $_SESSION['send'] = time();
+
+        $to = "contact@nwave.nl";
+        $subject = "Contact form: " . $name;
+        $headers = "From: " . $email;
+
+        mail($to, $subject, $message, $headers);
+        header('Location: ' . url("/contact"));
+        exit();
+    }
+}
+
+?>
 
 <div class="intro">
-  <h1>Contact.</h1>
+    <h1>Contact.</h1>
 </div>
 
 <div class="wrapper">
@@ -23,7 +63,7 @@
                 </ul>
             </div>
         </div>
-        <div class="contact__right">
+        <form class="contact__right" method="post" action="<?php echo url("/contact"); ?>">
             <div class="contact__right__naam">
                 <h3 class="form__title">Naam</h3>
                 <div class="inline">
@@ -40,8 +80,12 @@
                 <textarea class="form__input" name="bericht" cols="30" rows="10" placeholder="Uw bericht..."></textarea>
             </div>
             <div class="contact__right__button">
-                <input type="submit" name="submit" value="Versturen">
+                <?php if(!isset($_SESSION['send'])) { ?>
+                    <input type="submit" name="submit" value="Versturen">
+                <?php } else { ?>
+                    <input id="verstuurd" type="submit" name="submit" value="Verstuurd!">
+                <?php } ?>
             </div>
-        </div>
+        </form>
     </div>
 </div>

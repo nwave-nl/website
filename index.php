@@ -16,7 +16,7 @@ $router->map( 'GET', '/', 'HomeController#homepage', 'home' );
 $router->map( 'GET', '/over-ons', 'PageController#over', 'over' );
 $router->map( 'GET', '/portfolio', 'PageController#portfolio', 'portfolio' );
 $router->map( 'GET', '/offerte-aanvragen', 'PageController#offerte', 'offerte' );
-$router->map( 'GET', '/contact', 'PageController#contact', 'contact' );
+$router->map( 'GET|POST', '/contact', 'PageController#contact', 'contact' );
 
 
 

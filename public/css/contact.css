@@ -82,3 +82,7 @@ textarea {
     font-size: 25px;
     cursor: pointer;
 }
+
+#verstuurd {
+    background-color: #71c157;
+}
