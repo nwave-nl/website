@@ -47,6 +47,10 @@ body {
   padding: 0;
   line-height: 60px;
 }
+.nav_left a {
+  text-decoration: none;
+  color: #fff;
+}
 .nav_right {
   float: right;
   font-family: europa, sans-serif;

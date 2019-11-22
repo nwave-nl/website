@@ -8,17 +8,16 @@ $pageURL = $parts[count($parts) - 1];
 <head>
     <title>nwave - Wij creëren websites voor u.</title>
     <link rel="shortcut icon" type="image/x-icon" href="public/images/favicon.png">
-    <link rel="stylesheet" href="<?php echo css('home'); ?>">
-    <link rel="stylesheet" href="<?php echo css('over'); ?>">
+    <link rel="stylesheet" href="<?php echo css("home"); ?>">
     <link rel="stylesheet" href="<?php echo  css("main"); ?>">
-    <link rel="stylesheet" href="<?php echo  css("contact"); ?>">
+    <link rel="stylesheet" href="<?php echo css($pageURL); ?>">
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
     <script src="<?php echo js("nav"); ?>"></script>
 </head>
 <body>
 <nav class="nav">
     <div class="nav_left">
-        <h2>nwave</h2>
+        <h2><a href="<?php echo url("/"); ?>">nwave</a></h2>
     </div>
     <div class="nav_right">
         <ul>
