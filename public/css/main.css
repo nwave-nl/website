@@ -127,7 +127,7 @@ body {
 /* ---intro css--- */
 .intro {
   height: 400px;
-  background: url('../images/about_intro.jpg');
+  background: url('../images/main/about_intro.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
