@@ -6,7 +6,9 @@ $pageURL = $parts[count($parts) - 1];
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-    <title>nwave - Wij creëren websites voor u.</title>
+<!--    Zorgt ervoor dat de title reageerd op gedrag in website-->
+    <?php  include "private/php/title.php"?>
+    <title><?php echo $title ?></title>
     <link rel="shortcut icon" type="image/x-icon" href="public/images/favicon.png">
     <link rel="stylesheet" href="<?php echo css("home"); ?>">
     <link rel="stylesheet" href="<?php echo  css("main"); ?>">
