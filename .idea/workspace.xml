@@ -4,9 +4,8 @@
     <list default="true" id="def9eb41-c52c-4924-bcd3-b172ca27cfe1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/private/views/over.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/views/over.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private/views/standard_layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/views/standard_layout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/over.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/over-ons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/over-ons.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/over-ons.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,6 +94,9 @@
       <workItem from="1573753237183" duration="2545000" />
       <workItem from="1574437006075" duration="1350000" />
       <workItem from="1574441576929" duration="6670000" />
+      <workItem from="1574598929662" duration="1978000" />
+      <workItem from="1574606199448" duration="616000" />
+      <workItem from="1574617996119" duration="2107000" />
     </task>
     <servers />
   </component>

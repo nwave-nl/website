@@ -1,7 +1,21 @@
 .about__nwave {
     margin-top: 3em;
 }
-.about__nwave--content {
+.about__nwave--st {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+.about__nwave--st p {
+    margin-top: 3em;
+    font-size: 1.80em;
+}
+.about__nwave--content:nth-child(1) {
+    display: block;
+    margin: auto;
+    width: 160px;
+}
+.about__nwave--content:nth-child(even) {
     display: block;
     margin: auto;
     width: 300px;
@@ -30,6 +44,6 @@
 .about__nwave--grid p {
     margin-top: .3rem;
 }
-.about__nwave-spacing {
+.about__nwave--spacing {
     height: 200px;
 }

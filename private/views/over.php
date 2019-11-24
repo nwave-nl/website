@@ -6,9 +6,27 @@
 </div>
 
 <div class="about__nwave">
+
+    <div class="about__nwave--content">
+        <h1>Intro.</h1>
+    </div>
+
+    <div class="about__nwave--st">
+        <p>
+            Wij zijn nwave, een verfrissend en nieuw bedrijf wat zich bezighoudt met
+            het ontwerpen en developen van websites. Ons team samengestelde developers
+            zal ervoor zorgen dat elke website met veel passie wordt ontworpen en gecreëerd.
+            Samen gaan wij elke uitdaging aan en zorgen wij ervoor dat iedereen tevreden is.
+        </p>
+    </div>
+
+    <div class="about__nwave--spacing"></div>
+
+
     <div class="about__nwave--content">
         <h1>Ons team.</h1>
     </div>
+
     <div class="about__nwave--grid">
         <div>
             <img src="<?php echo image("about/marco.jpg"); ?>" alt="">
@@ -28,5 +46,5 @@
             <p>Yeno is een van onze front-end developers. Samen met Jelle zorgen hun dat de ontwerpen op orde zijn en dat de site op alle mogelijke devices te bekijken is. Yeno is pas tevreden als de klant dat ook is.</p>
         </div>
     </div>
-    <div class="about__nwave-spacing"></div>
+    <div class="about__nwave--spacing"></div>
 </div>
