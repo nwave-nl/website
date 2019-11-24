@@ -14,7 +14,7 @@ $router->setBasePath($CONFIG['BASE_URL']);
 
 $router->map( 'GET', '/', 'HomeController#homepage', 'home' );
 $router->map( 'GET', '/over-ons', 'PageController#over', 'over' );
-$router->map( 'GET', '/portfolio', 'PageController#portfolio', 'portfolio' );
+$router->map( 'GET', '/projecten', 'PageController#projecten', 'projecten' );
 $router->map( 'GET', '/offerte-aanvragen', 'PageController#offerte', 'offerte' );
 $router->map( 'GET|POST', '/contact', 'PageController#contact', 'contact' );
 

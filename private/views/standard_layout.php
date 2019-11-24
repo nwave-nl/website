@@ -23,7 +23,7 @@ $pageURL = $parts[count($parts) - 1];
         <ul>
             <li><a <?php if($pageURL == "") {echo "id='active'";} ?> href="<?php echo url("/"); ?>">Home</a></li>
             <li><a <?php if($pageURL == "over-ons") {echo "id='active'";} ?> href="<?php echo url("/over-ons"); ?>">Over ons</a></li>
-            <li><a <?php if($pageURL == "portfolio") {echo "id='active'";} ?> href="<?php echo url("/portfolio"); ?>">Portfolio</a></li>
+            <li><a <?php if($pageURL == "projecten") {echo "id='active'";} ?> href="<?php echo url("/projecten"); ?>">Projecten</a></li>
             <li><a <?php if($pageURL == "offerte-aanvragen") {echo "id='active'";} ?> href="<?php echo url("/offerte-aanvragen"); ?>">Offerte</a></li>
             <li><a <?php if($pageURL == "contact") {echo "id='active'";} ?> href="<?php echo url("/contact"); ?>">Contact</a></li>
         </ul>
