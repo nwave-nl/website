@@ -7,9 +7,9 @@ class PageController {
 
 	}
 
-	function portfolio(){
+	function projecten(){
         $template_engine = get_template_engine();
-        echo $template_engine->render('portfolio');
+        echo $template_engine->render('projecten');
 
 	}
 

@@ -1,0 +1,49 @@
+.about__nwave {
+    margin-top: 3em;
+}
+.about__nwave--st {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+.about__nwave--st p {
+    margin-top: 3em;
+    font-size: 1.80em;
+}
+.about__nwave--content:nth-child(1) {
+    display: block;
+    margin: auto;
+    width: 160px;
+}
+.about__nwave--content:nth-child(even) {
+    display: block;
+    margin: auto;
+    width: 300px;
+}
+.about__nwave--content h1 {
+    font-size: 4em;
+    text-align: center;
+    border-bottom: 1px solid #000;
+}
+.about__nwave--grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5em;
+    width: 80%;
+    margin: auto;
+}
+.about__nwave--grid img {
+    margin-top: 3em;
+    width: 100%;
+    box-shadow: 0px 4px 20px rgba(0,0,0,.2);
+}
+.about__nwave--grid h3 {
+    font-size: 2em;
+    line-height: 30px;
+}
+.about__nwave--grid p {
+    margin-top: .3rem;
+}
+.about__nwave--spacing {
+    height: 200px;
+}

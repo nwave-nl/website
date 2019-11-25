@@ -1,0 +1,27 @@
+.uitleg {
+    text-align: center;
+}
+
+.projecten__nwave--spacing {
+    height: 200px;
+}
+
+.projecten__nwave--tekstspacing {
+    height: 50px;
+}
+
+/*.projecten_grid {*/
+/*    display: grid;*/
+/*    grid-template-columns: 1fr 1fr;*/
+/*    box-shadow: 0px 4px 20px rgba(0,0,0,.2);*/
+/*    width: 80%;*/
+/*    margin: auto;*/
+/*}*/
+
+.catering {
+    text-align: center;
+}
+
+.imperium {
+    text-align: center;
+}

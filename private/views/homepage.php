@@ -2,7 +2,7 @@
 
 <!-- Header -->
 <div class="head">
-  <img src="<?php echo image("head_logo.png"); ?>" alt="img">
+  <img src="<?php echo image("home/head_logo.png"); ?>" alt="img">
 </div>
 
 <!-- Wie zijn wij pagina -->
@@ -19,7 +19,7 @@
       </div>
     </div>
     <div class="page__wzw--grid-img">
-      <img src="<?php echo image("wzw_img.jpg"); ?>" alt="img">
+      <img src="<?php echo image("home/wzw_img.jpg"); ?>" alt="img">
     </div>
   </div>
 </div>
@@ -28,7 +28,7 @@
 <div class="page__wd">
   <div class="page__wd--grid">
     <div class="page__wd--grid-img">
-      <img src="<?php echo image("wd_img.jpg"); ?>" alt="img">
+      <img src="<?php echo image("home/wd_img.jpg"); ?>" alt="img">
     </div>
     <div class="page__wd--grid-text">
       <div class="page__wd--grid-text-content">
@@ -57,7 +57,7 @@
       </div>
     </div>
     <div class="page__ow--grid-img">
-      <img src="<?php echo image("ow_img.jpg"); ?>" alt="img">
+      <img src="<?php echo image("home/ow_img.jpg"); ?>" alt="img">
     </div>
   </div>
 </div>

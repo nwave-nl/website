@@ -1,7 +1,7 @@
 /* ---HEAD--- */
 .head {
   height: 100vh;
-  background: url('../images/head_bg.jpg'); /* miss andere foto IDK */
+  background: url('../images/home/head_bg.jpg'); /* miss andere foto IDK */
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -76,7 +76,7 @@
 .page__wd {
   height: 1050px;
   background-size: cover;
-  background: url('../images/wd_bg.jpg') no-repeat center;
+  background: url('../images/home/wd_bg.jpg') no-repeat center;
 }
 .page__wd--grid {
   display: grid;
@@ -191,7 +191,7 @@
 /* ---Voorbeelden--- */
 .page__e {
   height: 600px;
-  background: url('../images/e_bg.jpg') center;
+  background: url('../images/home/e_bg.jpg') center;
   background-size: cover;
   color: #fff;
   text-align: center;
@@ -276,7 +276,7 @@
 /* ---Offerte pagina--- */
 .page__oa {
   height: 400px;
-  background: url('../images/oa_bg.png');
+  background: url('../images/home/oa_bg.png');
   background-position: center center;
   background-size: cover;
 }
