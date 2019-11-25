@@ -9,6 +9,7 @@ $pageURL = $parts[count($parts) - 1];
 <!--    Zorgt ervoor dat de title reageerd op gedrag in website-->
     <?php  include "private/php/title.php"?>
     <title><?php echo $title ?></title>
+    <meta charset="UTF-8">
     <link rel="shortcut icon" type="image/x-icon" href="public/images/favicon.png">
     <link rel="stylesheet" href="<?php echo css("home"); ?>">
     <link rel="stylesheet" href="<?php echo  css("main"); ?>">
