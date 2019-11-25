@@ -4,21 +4,24 @@
     <h1>Projecten.</h1>
 </div>
 
-<div class="about__nwave--content">
-    <h1>Onze projecten</h1>
-</div>
+<div class="projecten__nwave--spacing"></div>
 
-<div class="about__nwave--grid">
+<!--<div class="projecten_grid">-->
 
     <div class="catering">
         <img src="<?php echo image("projecten/starlounge_catering.jpg"); ?>" alt="Starlounge Catering">
         <h3>Starlounge Catering</h3>
+        <p>Coming soon...</p>
     </div>
 
+    <div class="projecten__nwave--tekstspacing"></div>
 
-<!--    <div>-->
-<!--        <img src="--><?php //echo image("projecten/starlounge_catering.jpg"); ?><!--" alt="Starlounge Catering">-->
-<!--        <h3>Starlounge Catering</h3>-->
-<!--    </div>-->
+    <div class="imperium">
+        <img src="<?php echo image("projecten/imperium.jpg"); ?>" alt="Home Imperium">
+        <h3>Home Imperium</h3>
+        <p>Coming soon...</p>
+    </div>
+
+<div class="projecten__nwave--tekstspacing"></div>
 
 </div>
