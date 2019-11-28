@@ -51,9 +51,10 @@ img {
     grid-row: 2;
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 1150px) {
     .projecten_grid {
         display: block;
+        width: 90%;
         margin: auto;
     }
 }
