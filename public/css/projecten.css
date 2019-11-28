@@ -10,18 +10,47 @@
     height: 50px;
 }
 
-/*.projecten_grid {*/
-/*    display: grid;*/
-/*    grid-template-columns: 1fr 1fr;*/
-/*    box-shadow: 0px 4px 20px rgba(0,0,0,.2);*/
-/*    width: 80%;*/
-/*    margin: auto;*/
-/*}*/
+.projecten_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 2em;
+    width: 80%;
+    margin: 0 auto;
+}
 
-.catering {
+.center{
     text-align: center;
+    display: block;
+    margin: auto;
+}
+
+img {
+    box-shadow: 0px 4px 20px rgba(0,0,0,.2);
+    height: auto;
+    width: 100%;
 }
 
 .imperium {
-    text-align: center;
+    grid-row: 2;
+    grid-column: 2/3;
 }
+
+.text_projecten {
+    width: 80%;
+    margin-top: 3em;
+    font-size: 1.80em;
+}
+
+.uitleg_catering {
+ grid-column: 2/3;
+}
+
+.uitleg_imperium {
+    grid-column: 1/2;
+    grid-row: 2;
+}
+
+
+
+
