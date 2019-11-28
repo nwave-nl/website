@@ -51,6 +51,23 @@ img {
     grid-row: 2;
 }
 
+@media only screen and (max-width: 650px) {
+    .projecten_grid {
+        display: block;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .uitleg_imperium h1 {
+        font-size: 1em;
+    }
+
+    .uitleg_catering h1 {
+        font-size: 1em;
+    }
+}
+
 
 
 
