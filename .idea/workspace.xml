@@ -45,7 +45,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../linkedin" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -104,8 +104,13 @@
       <workItem from="1574761792398" duration="218000" />
       <workItem from="1574774430999" duration="153000" />
       <workItem from="1574933106419" duration="690000" />
+<<<<<<< HEAD
       <workItem from="1574953407411" duration="1279000" />
       <workItem from="1575017236396" duration="911000" />
+=======
+      <workItem from="1574953407411" duration="867000" />
+      <workItem from="1574962525462" duration="762000" />
+>>>>>>> 36e7d93c8ac6dd68dee0abe0a94395f9b3149da8
     </task>
     <servers />
   </component>
