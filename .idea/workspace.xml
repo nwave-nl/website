@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="def9eb41-c52c-4924-bcd3-b172ca27cfe1" name="Default Changelist" comment="">
+    <list default="true" id="9b261f2e-2f71-419d-9cdb-1a2f96d2f917" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/css/offerte-aanvragen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/offerte/offerte_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/offerte/offerte_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/offerte/offerte_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/offerte/offerte_4.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/over-ons.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/over-ons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/views/offerte.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/views/offerte.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,37 +30,16 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/nwave.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-      </list>
-    </option>
+  <component name="ProjectId" id="1UOURLVE3TAkFoLGgZZnjCALlvq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectId" id="1TyewAw49KQeO4sszMZoWXSO8TQ" />
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../linkedin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -69,48 +53,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="homepage.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/private/views/homepage.php">
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="PHP Script.homepage.php" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="def9eb41-c52c-4924-bcd3-b172ca27cfe1" name="Default Changelist" comment="" />
-      <created>1573753236069</created>
+      <changelist id="9b261f2e-2f71-419d-9cdb-1a2f96d2f917" name="Default Changelist" comment="" />
+      <created>1575227096197</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1573753236069</updated>
-      <workItem from="1573753237183" duration="2545000" />
-      <workItem from="1574437006075" duration="1350000" />
-      <workItem from="1574441576929" duration="6670000" />
-      <workItem from="1574598929662" duration="1978000" />
-      <workItem from="1574606199448" duration="616000" />
-      <workItem from="1574617996119" duration="4392000" />
-      <workItem from="1574671742200" duration="74000" />
-      <workItem from="1574680818661" duration="83000" />
-      <workItem from="1574686769408" duration="77000" />
-      <workItem from="1574704352442" duration="155000" />
-      <workItem from="1574755481956" duration="434000" />
-      <workItem from="1574757881517" duration="940000" />
-      <workItem from="1574761792398" duration="218000" />
-      <workItem from="1574774430999" duration="153000" />
-      <workItem from="1574933106419" duration="690000" />
-<<<<<<< HEAD
-      <workItem from="1574953407411" duration="1279000" />
-      <workItem from="1575017236396" duration="911000" />
-=======
-      <workItem from="1574953407411" duration="867000" />
-      <workItem from="1574962525462" duration="762000" />
->>>>>>> 36e7d93c8ac6dd68dee0abe0a94395f9b3149da8
+      <updated>1575227096197</updated>
+      <workItem from="1575227097382" duration="28000" />
+      <workItem from="1575227126542" duration="18000" />
+      <workItem from="1575227144942" duration="5089000" />
     </task>
     <servers />
   </component>
@@ -129,5 +84,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
