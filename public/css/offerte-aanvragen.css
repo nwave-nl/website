@@ -69,3 +69,18 @@
     width: 100%;
     text-align: right;
 }
+.offerte__main--offerte--5 {
+    background-image: url('../images/offerte/offerte_5.jpg');
+    background-size: cover;
+    height: 300px;
+    display: table;
+    width: 100%;
+}
+.offerte__main--offerte--6 {
+    background-image: url('../images/offerte/offerte_6.jpg');
+    background-size: cover;
+    height: 300px;
+    display: table;
+    width: 100%;
+    text-align: right;
+}

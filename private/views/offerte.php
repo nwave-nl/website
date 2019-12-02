@@ -51,4 +51,30 @@
         </div>
     </div>
 
+    <div class="offerte__main--offerte--5">
+        <div class="offerte__main--middle">
+            <div class="offerte__main--content">
+                <h1>Leveren.</h1>
+                <p>Als de website bestaat en gebruikt kan worden zullen wij deze opleveren. Als u nog
+                    opmerkingen of vragen heeft zal het team van nwave altijd voor u klaar staan.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="offerte__main--offerte--6">
+        <div class="offerte__main--middle">
+            <div class="offerte__main--content">
+                <h1>Eventuele updates.</h1>
+                <p>De gemaakte website zal op zijn tijd natuurlijk een aantal updates nodig hebben.
+                    ls u deze updates doorgeeft zal het team er zo snel mogelijk voor zorgen dat deze
+                    er in komen te staan. Zo blijft iedereen tevreden</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="offerte__main--spacing"></div>
+        <h1 class="offerte-h1">Website</h1>
+        <p class="offerte-p">Wat kunt u verwachten in een website</p>
+    <div class="offerte__main--spacing"></div>
+
 </div>
