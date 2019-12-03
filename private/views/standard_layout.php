@@ -16,6 +16,7 @@ $pageURL = $parts[count($parts) - 1];
     <link rel="stylesheet" href="<?php echo css($pageURL); ?>">
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
     <script src="<?php echo js("nav"); ?>"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
 </head>
 <body>
 <nav class="nav">
