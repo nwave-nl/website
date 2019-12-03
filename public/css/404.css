@@ -1,0 +1,43 @@
+.background {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("../images/main/404.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.relative {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+}
+
+#logo {
+    height: 250px;
+}
+
+.center {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text{
+    margin-top: 40px;
+}
+
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}

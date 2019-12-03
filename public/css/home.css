@@ -8,7 +8,8 @@
   position: relative;
 }
 
-.head img {
+#logo {
+  height: 300px;
   position: absolute;
   top: 50%;
   left: 50%;
