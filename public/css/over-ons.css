@@ -47,3 +47,29 @@
 .about__nwave--spacing {
     height: 200px;
 }
+
+/*RESPONSIVE*/
+
+@media only screen and (max-width: 1000px) {
+    .about__nwave--grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .about__nwave--grid {
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .about__nwave--grid h3 {
+       margin-top: 3vh;
+    }
+
+    .about__nwave--st p {
+        text-align: center;
+    }
+}

@@ -118,5 +118,5 @@
 <!-- Offerte aanvragen pagina -->
 <div class="page__oa">
   <h1>Offerte aanvragen?</h1>
-  <button onclick="location='/pagina'">Offerte aanvragen</button>
+  <button onclick="location='<?php echo url("/offerte-aanvragen"); ?>'">Offerte aanvragen</button>
 </div>
