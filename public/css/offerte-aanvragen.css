@@ -1,3 +1,10 @@
+.spacing {
+    height: 50px;
+}
+.more-spacing {
+    height: 200px;
+}
+
 .offerte__main {
     width: 100%;
     margin: 0;
@@ -9,9 +16,6 @@
     font-size: 4em;
     text-align: center;
     border-bottom: 1px solid #000;
-}
-.offerte__main--spacing {
-    height: 50px;
 }
 .offerte-p {
     padding-top: 1em;
@@ -83,4 +87,77 @@
     display: table;
     width: 100%;
     text-align: right;
+}
+
+/*Voorbeelden*/
+
+/*responsive*/
+.responsive__main {
+    height: 600px;
+    background-image: url('../images/offerte/responsive_bg.jpg');
+    background-size: cover;
+    z-index: 1;
+    box-shadow: 0px 0px 20px rgba(0,0,0,.3);
+}
+.responsive__main--image {
+    overflow: hidden;
+    height: 600px;
+    background-image: url('../images/offerte/responsive.png');
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 2;
+}
+.responsive__main--image--content {
+    width: 95%;
+    text-shadow: 0px 0px 10px rgba(0,0,0,.2);
+    text-align: left;
+    color: #fff;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.responsive__main--image--content h1 {
+    font-size: 3em;
+    line-height: 50px;
+}
+.responsive__main--image--content p {
+    font-size: 1.2em;
+    max-width: 25%;
+}
+
+/*SEO*/
+
+.seo__main {
+    height: 600px;
+    background-image: url('../images/offerte/seo_bg.jpg');
+    background-size: cover;
+    z-index: 1;
+    box-shadow: 0px 0px 20px rgba(0,0,0,.3);
+}
+.seo__main--image {
+    overflow: hidden;
+    height: 600px;
+    background-image: url('../images/offerte/seo.png');
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 2;
+}
+.seo__main--image--content {
+    width: 95%;
+    text-shadow: 0px 0px 10px rgba(0,0,0,.2);
+    text-align: right;
+    color: #fff;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.seo__main--image--content h1 {
+    font-size: 3em;
+    line-height: 50px;
+}
+.seo_main--image--content p {
+    font-size: 1.2em;
+    max-width: 25%;
 }

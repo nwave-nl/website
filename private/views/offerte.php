@@ -6,10 +6,10 @@
 </div>
 <div class="offerte__main">
 
-    <div class="offerte__main--spacing"></div>
+    <div class="spacing"></div>
     <h1 class="offerte-h1">Informatie</h1>
     <p class="offerte-p">Alle informatie over hoe wij te werk gaan met u.</p>
-    <div class="offerte__main--spacing"></div>
+    <div class="spacing"></div>
 
     <div class="offerte__main--offerte--1">
         <div class="offerte__main--middle">
@@ -72,9 +72,34 @@
         </div>
     </div>
 
-    <div class="offerte__main--spacing"></div>
+    <div class="spacing"></div>
         <h1 class="offerte-h1">Website</h1>
         <p class="offerte-p">Wat kunt u verwachten in een website</p>
-    <div class="offerte__main--spacing"></div>
+    <div class="spacing"></div>
 
+    <!--Voorbeelden van websites-->
+
+    <!--responsive-->
+    <div class="responsive__main">
+        <div class="responsive__main--image">
+            <div class="responsive__main--image--content">
+                <h1>Responsive website's</h1>
+                <p>Al onze websites zijn 100% responsive,
+                Dus gebruiks vriendelijk op elk platform</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="more-spacing"></div>
+
+    <!--SEO-->
+    <div class="seo__main">
+        <div class="seo__main--image">
+            <div class="seo__main--image--content">
+                <h1>Beste mogelijke SEO</h1>
+                <p>Wij zorgen ervoor dat uw website altijd boven aan in search
+                engines komt.</p>
+            </div>
+        </div>
+    </div>
 </div>
