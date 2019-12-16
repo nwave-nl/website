@@ -74,15 +74,15 @@
 
     <div class="spacing"></div>
         <h1 class="offerte-h1">Website</h1>
-        <p class="offerte-p">Wat kunt u verwachten in een website</p>
+        <p class="offerte-p">Wat kunt u verwachten bij uw levering van uw website.</p>
     <div class="spacing"></div>
 
     <!--Voorbeelden van websites-->
 
     <!--responsive-->
     <div class="responsive__main">
-        <div class="responsive__main--image">
-            <div class="responsive__main--image--content">
+        <div class="responsive__main--middle">
+            <div class="responsive__main--middle--content">
                 <h1>Responsive website's</h1>
                 <p>Al onze websites zijn 100% responsive,
                 Dus gebruiks vriendelijk op elk platform</p>
@@ -94,12 +94,29 @@
 
     <!--SEO-->
     <div class="seo__main">
-        <div class="seo__main--image">
-            <div class="seo__main--image--content">
+        <div class="seo__main--middle">
+            <div class="seo__main--middle--content">
                 <h1>Beste mogelijke SEO</h1>
                 <p>Wij zorgen ervoor dat uw website altijd boven aan in search
                 engines komt.</p>
             </div>
         </div>
     </div>
+
+    <div class="more-spacing"></div>
+
+    <!--Klant vriendelijkheid-->
+    <div class="KV__main">
+        <div class="KV__main--middle">
+            <div class="KV__main--middle--content">
+                <h1>klantvriendelijkheid</h1>
+                <p>Onze klanten staan altijd op nummer één, Wij respecteren en luisteren goed naar onze klanten.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="spacing"></div>
+    <h1 class="offerte-h1--long">Offerte aanvragen</h1>
+    <p class="offerte-p">Tevreden? Dan kunnen we nu samen een offerte maken!</p>
+    <div class="spacing"></div>
 </div>

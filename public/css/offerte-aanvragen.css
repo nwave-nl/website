@@ -16,10 +16,19 @@
     font-size: 4em;
     text-align: center;
     border-bottom: 1px solid #000;
+    line-height: normal;
+}
+.offerte-h1--long {
+    width: 570px;
+    margin: auto;
+    font-size: 4em;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: normal;
 }
 .offerte-p {
     padding-top: 1em;
-    width: 350px;
+    width: 500px;
     margin: auto;
     text-align: center;
 }
@@ -99,15 +108,12 @@
     z-index: 1;
     box-shadow: 0px 0px 20px rgba(0,0,0,.3);
 }
-.responsive__main--image {
+.responsive__main--middle {
     overflow: hidden;
     height: 600px;
-    background-image: url('../images/offerte/responsive.png');
-    background-size: cover;
-    background-attachment: fixed;
     z-index: 2;
 }
-.responsive__main--image--content {
+.responsive__main--middle--content {
     width: 95%;
     text-shadow: 0px 0px 10px rgba(0,0,0,.2);
     text-align: left;
@@ -117,11 +123,11 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.responsive__main--image--content h1 {
+.responsive__main--middle--content h1 {
     font-size: 3em;
-    line-height: 50px;
+    line-height: 55px;
 }
-.responsive__main--image--content p {
+.responsive__main--middle--content p {
     font-size: 1.2em;
     max-width: 25%;
 }
@@ -135,15 +141,12 @@
     z-index: 1;
     box-shadow: 0px 0px 20px rgba(0,0,0,.3);
 }
-.seo__main--image {
+.seo__main--middle {
     overflow: hidden;
     height: 600px;
-    background-image: url('../images/offerte/seo.png');
-    background-size: cover;
-    background-attachment: fixed;
     z-index: 2;
 }
-.seo__main--image--content {
+.seo__main--middle--content {
     width: 95%;
     text-shadow: 0px 0px 10px rgba(0,0,0,.2);
     text-align: right;
@@ -153,11 +156,43 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.seo__main--image--content h1 {
+.seo__main--middle--content h1 {
     font-size: 3em;
-    line-height: 50px;
+    line-height: 55px;
 }
-.seo_main--image--content p {
+.seo__main--middle--content p {
+    font-size: 1.2em;
+}
+
+/*Klant vriendelijkheid*/
+
+.KV__main {
+    height: 600px;
+    background-image: url('../images/offerte/KV_bg.jpg');
+    background-size: cover;
+    z-index: 1;
+    box-shadow: 0px 0px 20px rgba(0,0,0,.3);
+}
+.KV__main--middle {
+    overflow: hidden;
+    height: 600px;
+    z-index: 2;
+}
+.KV__main--middle--content {
+    width: 95%;
+    text-shadow: 0px 0px 10px rgba(0,0,0,.2);
+    text-align: left;
+    color: #fff;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.KV__main--middle--content h1 {
+    font-size: 3em;
+    line-height: 55px;
+}
+.KV_main--middle--content p {
     font-size: 1.2em;
     max-width: 25%;
 }

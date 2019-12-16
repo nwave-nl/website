@@ -10,7 +10,7 @@ $pageURL = $parts[count($parts) - 1];
     <?php  include "private/php/title.php"?>
     <title><?php echo $title ?></title>
     <meta charset="UTF-8">
-    <link rel="shortcut icon" type="image/x-icon" href="public/images/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo image("main/favicon.png")?>">
     <link rel="stylesheet" href="<?php echo css("home"); ?>">
     <link rel="stylesheet" href="<?php echo  css("main"); ?>">
     <link rel="stylesheet" href="<?php echo css($pageURL); ?>">
@@ -45,9 +45,8 @@ $pageURL = $parts[count($parts) - 1];
     <div class="footer_grid-1">
       <h2>Contact</h2>
       <ul>
-        <li><a href="/">Github</a></li>
-        <li><a href="">Linkedin</a></li>
-        <li><a href="">Instagram</a></li>
+        <li><a href="https://github.com/nwave-nl">Github</a></li>
+        <li><a href="https://www.linkedin.com/company/31411281">Linkedin</a></li>
         <li><a href="mailto:contact@nwave.nl">Mail</a></li>
       </ul>
     </div>

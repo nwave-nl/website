@@ -25,7 +25,7 @@
           2e jaar, Wij willen veder groeien in een markt van grote bedrijven door
           te doen waar wij het best in zijn. Wij maken mooie responsive
           website’s voor bijvoorbeeld uw start-up / bedrijf</p>
-          <div class="more__button"><button>Meer weten</button></div>
+          <div class="more__button"><button onclick="location='<?php echo url("/over-ons"); ?>'">Meer weten</button></div>
       </div>
     </div>
     <div class="page__wzw--grid-img">
@@ -47,7 +47,7 @@
           Wij houden er van onze klanten te vreden te houden en doen er
           altijd alles aan om uw visie waarheid te maken. Uw ideeën worden
           serieus genomen en in kaart gebracht.</p>
-          <button>Offerte aanvragen</button>
+          <button onclick="location='<?php echo url("/offerte-aanvragen"); ?>'">Offerte aanvragen</button>
       </div>
     </div>
   </div>
@@ -63,7 +63,7 @@
           of de website die wij hebben gemaakt voor u. Dit doen
           wij voor de laagste prijs mogelijk, wij veranderen alles wat
           u nodig vindt.</p>
-          <div class="more__button"><button>Meer weten</button></div>
+          <div class="more__button"><button onclick="location='<?php echo url("/offerte-aanvragen"); ?>'">Meer weten</button></div>
       </div>
     </div>
     <div class="page__ow--grid-img">
