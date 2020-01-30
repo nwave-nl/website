@@ -15,24 +15,46 @@ $pageURL = $parts[count($parts) - 1];
     <link rel="stylesheet" href="<?php echo  css("main"); ?>">
     <link rel="stylesheet" href="<?php echo css($pageURL); ?>">
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="<?php echo js("nav"); ?>"></script>
+    <script src="<?php echo js("hamburgermenu"); ?>"></script>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
 </head>
 <body>
-<nav class="nav">
-    <div class="nav_left">
-        <h2><a href="<?php echo url("/"); ?>">nwave</a></h2>
+    <div class="long-menu">
+        <nav class="nav">
+            <div class="nav_left">
+                <h2><a href="<?php echo url("/"); ?>">nwave</a></h2>
+            </div>
+            <div class="nav_right">
+                <ul>
+                    <li><a <?php if($pageURL == "") {echo "id='active'";} ?> href="<?php echo url("/"); ?>">Home</a></li>
+                    <li><a <?php if($pageURL == "over-ons") {echo "id='active'";} ?> href="<?php echo url("/over-ons"); ?>">Over ons</a></li>
+                    <li><a <?php if($pageURL == "projecten") {echo "id='active'";} ?> href="<?php echo url("/projecten"); ?>">Projecten</a></li>
+                    <li><a <?php if($pageURL == "offerte-aanvragen") {echo "id='active'";} ?> href="<?php echo url("/offerte-aanvragen"); ?>">Offerte</a></li>
+                    <li><a <?php if($pageURL == "contact") {echo "id='active'";} ?> href="<?php echo url("/contact"); ?>">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
     </div>
-    <div class="nav_right">
-        <ul>
-            <li><a <?php if($pageURL == "") {echo "id='active'";} ?> href="<?php echo url("/"); ?>">Home</a></li>
-            <li><a <?php if($pageURL == "over-ons") {echo "id='active'";} ?> href="<?php echo url("/over-ons"); ?>">Over ons</a></li>
-            <li><a <?php if($pageURL == "projecten") {echo "id='active'";} ?> href="<?php echo url("/projecten"); ?>">Projecten</a></li>
-            <li><a <?php if($pageURL == "offerte-aanvragen") {echo "id='active'";} ?> href="<?php echo url("/offerte-aanvragen"); ?>">Offerte</a></li>
-            <li><a <?php if($pageURL == "contact") {echo "id='active'";} ?> href="<?php echo url("/contact"); ?>">Contact</a></li>
-        </ul>
-    </div>
-</nav>
+
+        <div class="hamburger-menu">
+            <header>
+                <span>nwave</span>
+                <button class="hamburger">&#9776;</button>
+                <button class="cross">&#735;</button>
+            </header>
+
+            <div class="menu">
+                <ul>
+                    <li><a <?php if($pageURL == "") {echo "id='active'";} ?> href="<?php echo url("/"); ?>">Home</a></li>
+                    <li><a <?php if($pageURL == "over-ons") {echo "id='active'";} ?> href="<?php echo url("/over-ons"); ?>">Over ons</a></li>
+                    <li><a <?php if($pageURL == "projecten") {echo "id='active'";} ?> href="<?php echo url("/projecten"); ?>">Projecten</a></li>
+                    <li><a <?php if($pageURL == "offerte-aanvragen") {echo "id='active'";} ?> href="<?php echo url("/offerte-aanvragen"); ?>">Offerte</a></li>
+                    <li><a <?php if($pageURL == "contact") {echo "id='active'";} ?> href="<?php echo url("/contact"); ?>">Contact</a></li>
+                </ul>
+            </div>
+        </div>
 
       <?php
 
@@ -55,7 +77,7 @@ $pageURL = $parts[count($parts) - 1];
       <ul>
         <li><a href="<?php echo url("/"); ?>">Home</a></li>
         <li><a href="<?php echo url("/over-ons"); ?>">Over ons</a></li>
-        <li><a href="<?php echo url("/portfolio"); ?>">Portfolio</a></li>
+        <li><a href="<?php echo url("/projecten"); ?>">Projecten</a></li>
         <li><a href="<?php echo url("/offerte-aanvragen"); ?>">Offerte</a></li>
         <li><a href="<?php echo url("/contact"); ?>">Contact</a></li>
       </ul>

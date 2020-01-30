@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b261f2e-2f71-419d-9cdb-1a2f96d2f917" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/offerte/KV_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/main/menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/hamburgermenu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private/views/homepage.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/views/homepage.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/private/views/offerte.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/views/offerte.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/private/views/standard_layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/views/standard_layout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/offerte-aanvragen.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/offerte-aanvragen.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/main/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/main/favicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/offerte/responsive.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/offerte/responsive_bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/offerte/responsive_bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/offerte/seo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/offerte/seo_bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/offerte/seo_bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/nav.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +40,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -101,7 +98,12 @@
       <workItem from="1575531156629" duration="345000" />
       <workItem from="1575829894509" duration="599000" />
       <workItem from="1575915409778" duration="126000" />
-      <workItem from="1576501948332" duration="5426000" />
+      <workItem from="1576501948332" duration="6112000" />
+      <workItem from="1576576889586" duration="610000" />
+      <workItem from="1576692043151" duration="9000" />
+      <workItem from="1580152847455" duration="4948000" />
+      <workItem from="1580205930328" duration="613000" />
+      <workItem from="1580378208915" duration="1141000" />
     </task>
     <servers />
   </component>

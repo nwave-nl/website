@@ -28,59 +28,141 @@ body {
 
 /* ---NAV--- */
 
-.nav {
-  height: 60px;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  transition: .5s
+@media screen and (min-width: 700px) {
+  .long-menu {
+    display: block;
+  }
+  .hamburger-menu {
+    display: none;
+  }
+  .nav {
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: .5s
+  }
+  .nav.bg {
+    background: rgba(0,0,0,.8);
+    transition: .5s
+  }
+  .nav_left {
+    float: left;
+    margin-left: 10em;
+  }
+  .nav_left h2 {
+    font-family: europa, sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    color: #fff;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    line-height: 60px;
+  }
+  .nav_left a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .nav_right {
+    float: right;
+    font-family: europa, sans-serif;
+    font-weight: 400;
+  }
+  .nav_right ul {
+    list-style: none;
+    display: flex;
+    font-size: 1.2em;
+    margin-right: 10em;
+  }
+  .nav_right ul li {
+    margin-left: 2em;
+  }
+  .nav_right ul li a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 60px;
+  }
+  #active {
+    border-bottom: 1px solid #ff824c;
+  }
 }
-.nav.bg {
-  background: rgba(0,0,0,.8);
-  transition: .5s
+
+@media screen and (max-width: 700px) {
+  .long-menu {
+    display: none;
+  }
+  .hamburger-menu {
+    display: block;
+  }
+  @media screen and (max-width: 700px) {
+    .long-menu {
+      display: none;
+    }
+    .hamburger-menu {
+      display: block;
+    }
+    header{
+      width:100%;
+      background:#ffffff;
+      height:60px;
+      line-height:60px;
+      border-bottom:1px solid #dddddd;
+    }
+    .hamburger{
+      background:none;
+      position: absolute;
+      top:0;
+      right:0;
+      line-height:50px;
+      padding:5px 15px 0px 15px;
+      color:#999;
+      border:0;
+      font-size:1.4em;
+      font-weight:bold;
+      cursor:pointer;
+      outline:none;
+      z-index:10000000000000;
+
+    }
+    .cross{
+      background:none;
+      position:absolute;
+      top:0px;
+      right:0;
+      padding:7px 15px 0px 15px;
+      color:#999;
+      border:0;
+      font-size:3em;
+      line-height:60px;
+      font-weight:bold;
+      cursor:pointer;
+      outline:none;
+      z-index:10000000000000;
+    }
+    .menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#f1f1f1;  position:absolute; text-align:center; font-size:12px;}
+    .menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+    .menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+    .menu li:hover{display: block;    background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+    .menu ul li a { text-decoration:none;  margin: 0px; color:#666;}
+    .menu ul li a:hover {  color: #666; text-decoration:none;}
+    .menu a{text-decoration:none; color:#666;}
+    .menu a:hover{text-decoration:none; color:#666;}
+
+    .glyphicon-home{
+      color:white;
+      font-size:1.5em;
+      margin-top:5px;
+      margin:0 auto;
+    }
+    header{display:inline-block; font-size:12px;}
+    span{padding-left:20px; font-size: 2em;}
+    a{color:#336699;}
+  }
 }
-.nav_left {
-  float: left;
-  margin-left: 10em;
-}
-.nav_left h2 {
-  font-family: europa, sans-serif;
-  font-weight: 700;
-  font-size: 2em;
-  color: #fff;
-  display: flex;
-  margin: 0;
-  padding: 0;
-  line-height: 60px;
-}
-.nav_left a {
-  text-decoration: none;
-  color: #fff;
-}
-.nav_right {
-  float: right;
-  font-family: europa, sans-serif;
-  font-weight: 400;
-}
-.nav_right ul {
-  list-style: none;
-  display: flex;
-  font-size: 1.2em;
-  margin-right: 10em;
-}
-.nav_right ul li {
-  margin-left: 2em;
-}
-.nav_right ul li a {
-  color: #fff;
-  text-decoration: none;
-  line-height: 60px;
-}
-#active {
-  border-bottom: 1px solid #ff824c;
-}
+
 @media screen and (max-width: 992px) and (min-device-width : 601px) {
   .nav {
     height: 80px;
@@ -147,6 +229,8 @@ body {
     border-bottom: 1px solid #ff824c;
   }
 }
+
+
 /* --------- */
 /* FOOTER */
 .footer {

@@ -72,12 +72,16 @@
         </div>
     </div>
 
+    <div class="line"></div>
+
     <div class="spacing"></div>
         <h1 class="offerte-h1">Website</h1>
         <p class="offerte-p">Wat kunt u verwachten bij uw levering van uw website.</p>
     <div class="spacing"></div>
 
     <!--Voorbeelden van websites-->
+
+
 
     <!--responsive-->
     <div class="responsive__main">
