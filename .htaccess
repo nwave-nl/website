@@ -1,22 +1,7 @@
 
-<IfModule mod_rewrite.c>
-  RewriteEngine on
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
 
-  RewriteCond %{REQUEST_FILENAME} -f
-  RewriteRule index.php - [QSA,L,C]
-  RewriteRule .* - [QSA,L]
-
-  RewriteCond %{REQUEST_URI} ^.*\.php$
-  RewriteRule ^.*\.php$ - [R=404,L]
-
-  RewriteCond %{REQUEST_URI} ^/$
-  RewriteRule ^$ index.php [QSA,L]
-
-  RewriteCond %{REQUEST_URI} ^(.*)\..*$
-  RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteRule ^(.*)\..*$ - [R=404,L]
-
-  RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteRule ^(.*)$ index.php [QSA,L]
-
-</IfModule>
+RewriteRule ^(.+)$ index.php?uri=$1 [QSA,L]

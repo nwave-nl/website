@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b261f2e-2f71-419d-9cdb-1a2f96d2f917" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/main/menu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/hamburgermenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private/views/offerte.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/views/offerte.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/includes/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/includes/config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/private/views/standard_layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/views/standard_layout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/offerte-aanvragen.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/offerte-aanvragen.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/nav.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +59,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Get-Up-Stand-Up" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -103,7 +99,11 @@
       <workItem from="1576692043151" duration="9000" />
       <workItem from="1580152847455" duration="4948000" />
       <workItem from="1580205930328" duration="613000" />
-      <workItem from="1580378208915" duration="1141000" />
+      <workItem from="1580378208915" duration="1849000" />
+      <workItem from="1580400843061" duration="75000" />
+      <workItem from="1580400920493" duration="301000" />
+      <workItem from="1581964620438" duration="433000" />
+      <workItem from="1581965266817" duration="485000" />
     </task>
     <servers />
   </component>

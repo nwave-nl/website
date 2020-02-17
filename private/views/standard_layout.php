@@ -6,10 +6,32 @@ $pageURL = $parts[count($parts) - 1];
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-<!--    Zorgt ervoor dat de title reageerd op gedrag in website-->
+
+    <!--SEO-->
+    <meta name="copyright"
+          property="copyright"
+          content="Copyright © nwave - All Rights Served" />
+    <meta name="description"
+          property="description"
+          content="Wij zijn nwave, een verfrissend en nieuw bedrijf wat zich bezighoudt met het ontwerpen en developen van websites." />
+    <meta name="title"
+          property="title"
+          content="nwave - Wij creeëren websites voor jou!" />
+    <meta name="keywords"
+          property="keywords"
+          content="nwave, websites, seo, develop, development, webdevelopment, website, marco bruijns, jelle stekelenburg, yeno reus," />
+    <meta name="robots"
+          content="index, follow" />
+
+    <meta name="theme-color" content="#ff824c" />
+
+
+    <!--Zorgt ervoor dat de title reageerd op gedrag in website-->
     <?php  include "private/php/title.php"?>
     <title><?php echo $title ?></title>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo image("main/favicon.png")?>">
     <link rel="stylesheet" href="<?php echo css("home"); ?>">
     <link rel="stylesheet" href="<?php echo  css("main"); ?>">
@@ -18,7 +40,6 @@ $pageURL = $parts[count($parts) - 1];
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="<?php echo js("nav"); ?>"></script>
     <script src="<?php echo js("hamburgermenu"); ?>"></script>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
 </head>
 <body>
     <div class="long-menu">
